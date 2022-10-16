@@ -293,10 +293,10 @@ a {
   }
   
   .p-menu1{
-     height: 100%;
-     position: fixed;
-     width: 100%;
-     z-index: 10;
+    height: fit-content;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
   }
   
   /* Hamburger */
@@ -345,7 +345,6 @@ a {
   #toggle1:checked ~ .menu1 {
     height: 340px;
   }
-  
   
   /* Menu */
   .menu1 {
