@@ -1,0 +1,395 @@
+html {
+    scroll-behavior:smooth
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid #CB9113;
+    width: 250px;
+}
+
+h1 {
+    font-family: 'Rockwell';
+    font-weight: 700;
+    color: #CB9113;
+}
+
+h2 {
+    font-family: 'Rockwell';
+    font-weight: 400;
+    color: #CB9113;
+    letter-spacing: 0.4em;
+    position: relative;
+    left: 5px;
+}
+
+#main-logo {
+    padding-top: 120px;
+    padding-right: 10%;
+    width: 300px;
+}
+
+#main {
+    background-image: url('images/white-bg.png');
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.horizontal {
+    display: flex;
+    align-items: center;
+}
+
+#social-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+
+#email, #phone {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+#comite-directeur, #dirigeants {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 15px 20px;
+}
+
+.staff {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staff-h3 {
+    margin-bottom: 10px;
+    font-family: 'Mulish';
+    font-weight: 900;
+    color: #CB9113;
+}
+
+.staff h5 {
+    font-family: 'Mulish';
+    font-weight: 900;
+    font-size: 12px;
+    color: #CB9113;
+    margin-top: 3px;
+}
+
+.staff h6 {
+    font-family: 'Segoe Script';
+    font-weight: 900;
+    color: #000;
+}
+
+.staff img {
+    width: 90%;
+}
+
+.center {
+    text-align: center;
+}
+
+#written {
+    font-family: 'Segoe Script';
+    line-height: 140%;
+    font-weight: 700;
+    width: 250px;
+    font-size: 15px;
+}
+
+.header {
+    background-color: #CB9113;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    font-family: 'Mulish';
+    font-weight: 900;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px #976700;
+    letter-spacing: 0.03em;
+}
+
+.section-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/white-bg.png');
+    background-color:grey;
+    width: 100%;
+    border-top: 5px solid #CB9113;
+}
+
+.section-black {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/black-bg.png');
+    background-color:grey;
+    width: 100%;
+    border-top: 5px solid #CB9113;
+}
+
+#text {
+    font-family: 'Mulish';
+    font-weight: 500;
+    line-height: 117%;
+    text-align: justify;
+    padding: 20px 20px 40px 20px;
+}
+
+#text p {
+    color: #D9D9D9;
+    box-sizing: border-box;
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 10px 0 40px 0;
+}
+
+td {
+    font-family: 'Mulish';
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 130%;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 5px 3px;
+}
+
+h4 {
+    font-family: 'Mulish';
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.b700 {
+    font-weight: 700;
+}
+
+
+#adress h4 {
+    font-weight: 900;
+}
+
+#adress2 h4 {
+    font-weight: 900;
+}
+
+#adresses {
+    margin-top: 15px;
+    color: #D9D9D9;
+}
+
+#adresses h5 {
+    font-family: 'Mulish';
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+
+#margin-bottom {
+    margin-bottom: 25px;
+}
+
+
+#suivez-vous {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#suivez-vous img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.text {
+    margin-top: 10px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#foot {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#foot h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#foot .horizontal img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+#pin-icon, #email-icon {
+    width: 25px;
+    margin-right: 5px;
+}
+
+iframe {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#quisommes, #club, #creneaux, #tarifs, #ounous {
+    position: relative;
+    height: 0px;
+    width: 100px;
+    background-color: red;
+    top: -70px;
+}
+
+/*burger*/
+
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .p-menu1{
+     height: 100%;
+     position: fixed;
+     width: 100%;
+     z-index: 10;
+  }
+  
+  /* Hamburger */
+  .hamburger1 {
+    background-color: #303030;
+    height: 35px;
+    padding: 10px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    z-index: 120;
+  }
+  
+  .hamburger1 div {
+    background-color: #CB9113;
+    position: relative;
+    width: 30px;
+    height: 5px;
+    margin-top: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #toggle1 {
+    display: none;
+  }
+  
+  #toggle1:checked + .hamburger1 .top {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    margin-top: 22.5px;
+  }
+  
+  #toggle1:checked + .hamburger1 .meat {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    margin-top: -5px;
+  }
+  
+  #toggle1:checked + .hamburger1 .bottom {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  
+  #toggle1:checked ~ .menu1 {
+    height: 340px;
+  }
+  
+  
+  /* Menu */
+  .menu1 {
+    width: 100%;
+    background-color: #303030;
+    margin: 0;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: 1fr repeat(4, 0.5fr);
+    grid-row-gap: 25px;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    width: auto;
+    text-align: center;
+    height: 0px;
+    overflow: hidden;
+    transition: height .4s ease;
+    z-index: 120;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .menu1 a:first-child {
+    margin-top: 20px;
+  }
+  
+  .menu1 a:last-child {
+    margin-bottom: 40px;
+  }
+  
+  .link1 {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Mulish';
+    font-weight: 900;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+  }
+  
+  .link1:hover {
+    background-color: #fff;
+    color: rgb(61, 61, 61);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
