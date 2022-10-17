@@ -8,28 +8,32 @@ html {
 }
 
 hr {
-    border: 1px solid #CB9113;
-    width: 250px;
+    background-color: #CB9113;
+    height: 2px;
+    width: 270px;
+    border: none;
 }
 
 h1 {
+    font-size: 37px;
     font-family: 'Rockwell';
     font-weight: 700;
     color: #CB9113;
 }
 
 h2 {
+    font-size: 27px;
     font-family: 'Rockwell';
     font-weight: 400;
     color: #CB9113;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.43em;
     position: relative;
     left: 5px;
 }
 
 #main-logo {
-    padding: 120px 10% 20px 0;
     width: 300px;
+    padding: 120px 30px 20px 0;
 }
 
 #main {
@@ -59,7 +63,15 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 150px;
+    width: 120px;
+}
+
+#social-flex {
+    margin-right: 15px;
+}
+
+#social-flex a img {
+    width: 80%;
 }
 
 #email, #phone {
@@ -337,6 +349,10 @@ a {
     justify-items: center;
     z-index: 120;
   }
+
+  .hamburger1:hover {
+    cursor: pointer;
+  }
   
   .hamburger1 div {
     background-color: #CB9113;
@@ -423,10 +439,68 @@ a {
 
   @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
+  /*-----------DESKTOP------------*/
   @media only screen and (min-width: 900px) {
     #main-logo {
         padding-top: 120px;
-        padding-right: 50px;
+        padding-right: 40px;
         width: 400px;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-family: 'Rockwell';
+        font-weight: 700;
+        color: #CB9113;
+    }
+    
+    h2 {
+        font-size: 37px;
+        font-family: 'Rockwell';
+        font-weight: 400;
+        color: #CB9113;
+        letter-spacing: 0.43em;
+        position: relative;
+        left: 5px;
+    }
+
+    hr {
+        background-color: #CB9113;
+        height: 3px;
+        width: 370px;
+        border: none;
+    }
+  }
+  
+  /*---------SREDNJI-----------*/
+  @media only screen and (min-width: 600px) and (max-width: 900px) {
+    #main-logo {
+        padding-top: 120px;
+        padding-right: 35px;
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 42px;
+        font-family: 'Rockwell';
+        font-weight: 700;
+        color: #CB9113;
+    }
+    
+    h2 {
+        font-size: 31px;
+        font-family: 'Rockwell';
+        font-weight: 400;
+        color: #CB9113;
+        letter-spacing: 0.43em;
+        position: relative;
+        left: 5px;
+    }
+
+    hr {
+        background-color: #CB9113;
+        height: 3px;
+        width: 310px;
+        border: none;
     }
   }
