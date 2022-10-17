@@ -28,8 +28,7 @@ h2 {
 }
 
 #main-logo {
-    padding-top: 120px;
-    padding-right: 10%;
+    padding: 120px 10% 20px 0;
     width: 300px;
 }
 
