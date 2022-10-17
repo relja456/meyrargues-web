@@ -72,6 +72,24 @@ h2 {
     color: #303030;
 }
 
+#email a {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+#phone a {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #303030;
+}
+
 #comite-directeur, #dirigeants {
     width: 100%;
     box-sizing: border-box;
@@ -259,6 +277,15 @@ h4 {
 #foot h4 {
     font-size: 14px;
     font-weight: 700;
+    color: #fff;
+}
+
+#foot a {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
     color: #fff;
 }
 
