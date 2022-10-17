@@ -148,7 +148,7 @@ h2 {
     font-family: 'Segoe Script';
     line-height: 140%;
     font-weight: 700;
-    width: 250px;
+    width: 260px;
     font-size: 15px;
 }
 
@@ -470,6 +470,12 @@ a {
         width: 370px;
         border: none;
     }
+
+    
+    #written {
+        width: 340px;
+        font-size: 17px;
+    }
   }
   
   /*---------SREDNJI-----------*/
@@ -502,5 +508,10 @@ a {
         height: 3px;
         width: 310px;
         border: none;
+    }
+
+    #written {
+        width: 290px;
+        font-size: 16px;
     }
   }
