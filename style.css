@@ -105,7 +105,7 @@ h2 {
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 20px 15px 20px;
 }
 
@@ -476,6 +476,44 @@ a {
         width: 340px;
         font-size: 17px;
     }
+    
+    td {
+        font-size: 18px;        
+    }
+
+    table {
+        width: 80%;
+    }
+
+    iframe {
+        width: 80%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    #text {
+        font-size: 20px;
+        padding: 20px 50px 40px 50px;
+    }
+
+    .header {
+        top: -13px;
+        padding: 10px 15px;
+        font-size: 25px;
+    }
+
+    .staff-h3 {
+        font-size: 25px;
+    }
+
+    #adresses {
+        display: flex;
+        gap: 60px;
+    }
+
+    #tarifs-list h4 {
+        font-size: 26px;
+    }
   }
   
   /*---------SREDNJI-----------*/
@@ -513,5 +551,43 @@ a {
     #written {
         width: 290px;
         font-size: 16px;
+    }
+
+    td {
+        font-size: 14px;        
+    }
+    
+    table {
+        width: 80%;
+    }
+
+    iframe {
+        width: 80%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    #text {
+        font-size: 18px;
+        padding: 20px 50px 40px 50px;
+    }
+
+    .header {
+        top: -12px;
+        padding: 10px 15px;
+        font-size: 22px;
+    }
+
+    .staff-h3 {
+        font-size: 25px;
+    }
+
+    #adresses {
+        display: flex;
+        gap: 20px;
+    }
+
+    #tarifs-list h4 {
+        font-size: 24px;
     }
   }
