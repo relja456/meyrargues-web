@@ -11,6 +11,7 @@ hr {
     background-color: #CB9113;
     height: 2px;
     width: 270px;
+    border-radius: 20px;
     border: none;
 }
 
@@ -64,10 +65,7 @@ h2 {
     align-items: center;
     justify-content: space-between;
     width: 120px;
-}
-
-#social-flex {
-    margin-right: 15px;
+    margin: 15px 15px 0 0;
 }
 
 #social-flex a img {
@@ -255,14 +253,15 @@ h4 {
 
 
 #margin-bottom {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 
 #suivez-vous {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 #suivez-vous img {
@@ -313,6 +312,7 @@ h4 {
 iframe {
     width: 100%;
     padding: 20px;
+    margin-bottom: 10px;
     box-sizing: border-box;
 }
 
@@ -322,6 +322,18 @@ iframe {
     width: 100px;
     background-color: red;
     top: -70px;
+}
+
+#suivez-vous-parent {
+    width: fit-content;
+}
+
+#suivez-vous a img {
+    margin: 0;
+}
+
+#suivez-vous:last-child img {
+    margin-right: 4px;
 }
 
 /*burger*/
@@ -437,6 +449,15 @@ a {
     transition: all 0.3s ease;
   }
 
+  small {
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-bottom: 2px;
+  }
+
   @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
   /*-----------DESKTOP------------*/
@@ -482,16 +503,17 @@ a {
     }
 
     table {
-        width: 80%;
+        width: 70%;
     }
 
     iframe {
-        width: 80%;
+        width: 70%;
         padding: 20px;
         box-sizing: border-box;
     }
 
     #text {
+        width: 80%;
         font-size: 20px;
         padding: 20px 50px 40px 50px;
     }
@@ -513,6 +535,36 @@ a {
 
     #tarifs-list h4 {
         font-size: 26px;
+    }
+
+    .staff h5 {
+        font-size: 20px;
+    }
+
+    .staff h6 {
+        font-size: 17px;
+    }
+
+    #email a {
+        font-size: 15px;
+    }
+    
+    #phone, #phone a {
+        font-size: 15px;
+    }
+
+    #foot {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #foot h3.text {
+        margin-top: 0;
+    }
+
+    #email-phone {
+        height: fit-content;
     }
   }
   
@@ -568,6 +620,7 @@ a {
     }
 
     #text {
+        width: 80%;
         font-size: 18px;
         padding: 20px 50px 40px 50px;
     }
@@ -589,5 +642,35 @@ a {
 
     #tarifs-list h4 {
         font-size: 24px;
+    }
+
+    .staff h5 {
+        font-size: 16px;
+    }
+
+    .staff h6 {
+        font-size: 14px;
+    }
+
+    #email a {
+        font-size: 15px;
+    }
+    
+    #phone, #phone a {
+        font-size: 15px;
+    }
+
+    #foot {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #foot h3.text {
+        margin-top: 0;
+    }
+
+    #email-phone {
+        height: fit-content;
     }
   }
