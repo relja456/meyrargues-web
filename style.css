@@ -13,6 +13,11 @@
     src: url(fonts/Mulish-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: 'Segoe Script';
+    src: url(fonts/segoesc.ttf);
+}
+
 html {
     scroll-behavior:smooth
 }
@@ -158,6 +163,7 @@ h2 {
 }
 
 #written {
+    color: rgb(54, 54, 54);
     font-family: 'Segoe Script';
     line-height: 140%;
     font-weight: 700;
