@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Rockwell';
+    src: url(fonts/Rockwell-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Rockwell';
+    src: url(fonts/ROCK.TTF);
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url(fonts/Mulish-VariableFont_wght.ttf);
+}
+
 html {
     scroll-behavior:smooth
 }
@@ -16,16 +31,15 @@ hr {
 }
 
 h1 {
-    font-size: 37px;
+    font-size: 40px;
     font-family: 'Rockwell';
-    font-weight: 700;
+    font-weight: bold;
     color: #CB9113;
 }
 
 h2 {
     font-size: 27px;
     font-family: 'Rockwell';
-    font-weight: 400;
     color: #CB9113;
     letter-spacing: 0.43em;
     position: relative;
@@ -468,7 +482,7 @@ a {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 56px;
         font-family: 'Rockwell';
         font-weight: 700;
         color: #CB9113;
@@ -576,7 +590,7 @@ a {
     }
 
     h1 {
-        font-size: 42px;
+        font-size: 46px;
         font-family: 'Rockwell';
         font-weight: 700;
         color: #CB9113;
